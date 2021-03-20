@@ -65,7 +65,7 @@ sections:
     align: center
   - type: features_section
     title: Mein Schaffenszyklus
-    subtitle: What I do
+    subtitle: Was ich mache
     features:
       - type: feature
         title: Content Creation
