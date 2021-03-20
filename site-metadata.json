@@ -10,7 +10,7 @@
         "title": "Jörg M. Dialer",
         "logo": "/images/Logo.jpg",
         "logo_alt": "Logo Jörg M. Dialer",
-        "has_primary_nav": true,
+        "has_primary_nav": false,
         "primary_nav_links": [
             {
                 "type": "action",
