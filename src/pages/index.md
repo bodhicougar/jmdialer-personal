@@ -210,7 +210,7 @@ sections:
         is_required: true
       - type: form_field
         input_type: textarea
-        name: message
+        name: Nachricht
         label: Message
         default_value: Your message
       - type: form_field
