@@ -3,7 +3,9 @@ title: Dankeschön
 sections:
   - type: hero_section
     title: Danke!
-    subtitle: 'Ich bedanke mich für die Kontaktaufnahme. Ich '
+    subtitle: >-
+      Ich bedanke mich für die Kontaktaufnahme. Ich melde mich. Einen schönen
+      Tag noch!
     actions:
       - type: action
         label: Back to homepage
