@@ -24,7 +24,7 @@ sections:
     background_image_size: contain
     background_image_repeat: repeat
   - type: grid_section
-    title: Trusted by Companies Big and Small
+    title: Ich bin der Liebling des Denkmalamtes.
     subtitle: Who I work with
     grid_items:
       - type: grid_item
