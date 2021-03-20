@@ -183,7 +183,7 @@ sections:
     background_image_repeat: repeat
   - type: form_section
     content: >
-      ## Lassen Sie uns kommunizieren
+      ## Kommunikation mit mir
 
 
       If you would like more information about my services and pricing, please
