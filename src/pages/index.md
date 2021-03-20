@@ -8,7 +8,6 @@ sections:
       and digital advertisements for you, at an affordable price.
     actions:
       - type: action
-        label: Contact Me
         url: /contact
         style: primary
     image: images/hero.png
