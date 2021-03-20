@@ -232,7 +232,7 @@ sections:
 seo:
   type: stackbit_page_meta
   title: Jörg M. Dialer - Diplom Malermeister
-  description: The preview of the Personal theme
+  description: Der gute Geist von Büchsenhausen stellt sich vor.
   extra:
     - name: 'og:type'
       value: website
