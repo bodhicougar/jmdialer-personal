@@ -231,7 +231,7 @@ sections:
     background_image_repeat: repeat
 seo:
   type: stackbit_page_meta
-  title: Stackbit Personal Theme
+  title: Jörg M. Dialer - Diplom Malermeister
   description: The preview of the Personal theme
   extra:
     - name: 'og:type'
