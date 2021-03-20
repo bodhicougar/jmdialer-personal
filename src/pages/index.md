@@ -200,7 +200,7 @@ sections:
         input_type: text
         name: name
         label: Name
-        default_value: Ihr Name
+        default_value: Ihr Vor- & Nachname
         is_required: true
       - type: form_field
         input_type: email
