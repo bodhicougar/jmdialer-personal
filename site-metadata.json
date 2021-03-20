@@ -32,7 +32,7 @@
             }
         ],
         "has_secondary_nav": false,
-        "has_anncmnt": false,
+        "has_anncmnt": true,
         "anncmnt_content": "Hier entsteht mein neuer Internetauftritt!\n"
     },
     "footer": {
