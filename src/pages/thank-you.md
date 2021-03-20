@@ -8,7 +8,7 @@ sections:
       Tag noch!
     actions:
       - type: action
-        label: Back to homepage
+        label: Zurück zur Startseite.
         url: /
         style: primary
         has_icon: true
