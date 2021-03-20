@@ -9,7 +9,7 @@ sections:
         url: /contact
         style: primary
         label: Kontakt
-    image: /images/hanson-deck.png
+    image: /images/Kepfl.jpg
     image_alt: A smiling woman
     media_position: right
     media_width: fifty
