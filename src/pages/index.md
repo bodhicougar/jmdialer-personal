@@ -206,7 +206,7 @@ sections:
         input_type: email
         name: E-Mail
         label: E-Mail
-        default_value: Your email address
+        default_value: Ihre E-Mail Adresse
         is_required: true
       - type: form_field
         input_type: textarea
