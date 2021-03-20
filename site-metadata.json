@@ -7,7 +7,7 @@
     "base_font": "serif",
     "header": {
         "type": "header",
-        "title": "Personal Theme",
+        "title": "Jörg M. Dialer",
         "logo": "images/logo.svg",
         "logo_alt": "Alyvia logo",
         "has_primary_nav": true,
