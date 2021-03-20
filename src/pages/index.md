@@ -211,7 +211,7 @@ sections:
       - type: form_field
         input_type: textarea
         name: Nachricht
-        label: Message
+        label: Nachricht
         default_value: Ihre Nachricht an mich
       - type: form_field
         input_type: checkbox
