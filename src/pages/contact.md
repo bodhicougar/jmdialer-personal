@@ -42,14 +42,14 @@ sections:
       - type: form_field
         input_type: email
         name: email
-        label: Email
+        label: E-Mail
         default_value: Your email address
         is_required: true
       - type: form_field
         input_type: textarea
         name: message
-        label: Message
-        default_value: Your message
+        label: Nachricht
+        default_value: Ihre Nachricht an mich
       - type: form_field
         input_type: checkbox
         name: consent
@@ -57,7 +57,7 @@ sections:
           Ich verstehe, dass dieses Formular meine übermittelten Informationen
           speichert, damit ich kontaktiert werden kann.
         is_required: true
-    submit_label: Send Message
+    submit_label: Senden
     align_vert: top
     padding_top: medium
     padding_bottom: medium
