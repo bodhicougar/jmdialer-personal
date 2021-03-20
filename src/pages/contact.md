@@ -3,7 +3,7 @@ title: Kontaktaufnahme
 sections:
   - type: hero_section
     title: Kontakt
-    subtitle: Fill out the form below and I will get in touch within 1 business day.
+    subtitle: Bitte untenstehendes Formular ausfüllen. Ich melde mich!
     align: center
     padding_top: medium
     padding_bottom: medium
