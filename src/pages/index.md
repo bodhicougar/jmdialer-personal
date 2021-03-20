@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Start
 sections:
   - type: hero_section
     title: 'Hi, I’m Alyvia. I help my clients succeed online.'
