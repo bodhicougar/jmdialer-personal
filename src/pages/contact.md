@@ -43,6 +43,7 @@ sections:
         name: name
         label: Name
         is_required: true
+        default_value: hI
       - type: form_field
         input_type: email
         name: email
