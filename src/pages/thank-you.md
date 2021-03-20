@@ -1,5 +1,5 @@
 ---
-title: Thank You
+title: Dankesch
 sections:
   - type: hero_section
     title: Thank You!
