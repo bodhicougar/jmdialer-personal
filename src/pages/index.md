@@ -3,9 +3,7 @@ title: Start
 sections:
   - type: hero_section
     title: 'Griaß enk, I bin''s, euer Naggi!'
-    subtitle: >-
-      I will handle your website design and production, social media accounts
-      and digital advertisements for you, at an affordable price.
+    subtitle: Hier stelle ich meinen Schaffenszyklus vor.
     actions:
       - type: action
         url: /contact
