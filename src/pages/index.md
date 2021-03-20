@@ -21,6 +21,8 @@ sections:
     background_image_opacity: 8
     background_image_size: contain
     background_image_repeat: repeat
+    content: |
+      Gurgel, sabber, blubb!
   - type: grid_section
     title: Ich bin der Liebling des Denkmalamtes.
     subtitle: Who I work with
