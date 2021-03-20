@@ -20,7 +20,7 @@
             },
             {
                 "type": "action",
-                "label": "About",
+                "label": "Über",
                 "url": "/about",
                 "style": "link"
             },
