@@ -10,7 +10,7 @@ sections:
         style: primary
         label: Kontakt
     image: /images/Kepfl.jpg
-    image_alt: A smiling woman
+    image_alt: Mein Kepfl
     media_position: right
     media_width: fifty
     align: left
