@@ -8,7 +8,7 @@
     "header": {
         "type": "header",
         "title": "Jörg M. Dialer",
-        "logo": "images/logo.svg",
+        "logo": "/images/Logo.jpg",
         "logo_alt": "Alyvia logo",
         "has_primary_nav": true,
         "primary_nav_links": [
