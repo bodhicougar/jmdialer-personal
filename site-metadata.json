@@ -42,7 +42,7 @@
         "primary_nav_links": [
             {
                 "type": "action",
-                "label": "About",
+                "label": "Über mich",
                 "url": "/about",
                 "style": "link"
             },
