@@ -182,8 +182,8 @@ sections:
     background_image_size: contain
     background_image_repeat: repeat
   - type: form_section
-    content: >-
-      ## Let's talk
+    content: >
+      ## Lassen Sie uns kommunizieren
 
 
       If you would like more information about my services and pricing, please
