@@ -23,6 +23,11 @@ sections:
     background_image_repeat: repeat
     content: |
       Gurgel, sabber, blubb!
+    video_embed_html: >-
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/lA0hiecUZjw" title="YouTube video
+      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   - type: grid_section
     title: Ich bin der Liebling des Denkmalamtes.
     subtitle: Who I work with
