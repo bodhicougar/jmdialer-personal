@@ -212,7 +212,7 @@ sections:
         input_type: textarea
         name: Nachricht
         label: Message
-        default_value: Your message
+        default_value: Ihre Nachricht an mich
       - type: form_field
         input_type: checkbox
         name: consent
