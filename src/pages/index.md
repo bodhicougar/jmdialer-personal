@@ -64,7 +64,7 @@ sections:
     grid_gap_horiz: medium
     align: center
   - type: features_section
-    title: My services
+    title: Mein Schaffenszyklus
     subtitle: What I do
     features:
       - type: feature
