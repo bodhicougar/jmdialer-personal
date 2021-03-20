@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Kontaktaufnahme
 sections:
   - type: hero_section
     title: Contact Me
