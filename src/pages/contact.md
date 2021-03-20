@@ -42,7 +42,6 @@ sections:
         input_type: text
         name: name
         label: Name
-        default_value: rhI
         is_required: true
       - type: form_field
         input_type: email
