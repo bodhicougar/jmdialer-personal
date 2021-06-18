@@ -1,131 +1,131 @@
 {
+  "mode": "light",
+  "domain": "https://jmdialer-personal.netlify.app",
+  "header": {
+    "primary_nav_links": [
+      {
+        "type": "action",
+        "label": "FAQ",
+        "url": "/faq",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "Über",
+        "url": "/about",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "Kontakt",
+        "url": "/contact",
+        "style": "link"
+      }
+    ],
+    "has_primary_nav": true,
+    "logo": "/images/Logo2.jpg",
+    "anncmnt_content": "Hier entsteht mein neuer Internetauftritt!\n",
+    "has_anncmnt": true,
+    "has_secondary_nav": false,
+    "logo_alt": "Logo Jörg M. Dialer",
     "title": "Jörg M. Dialer",
-    "layout_type": "boxed",
-    "style": "minimal",
-    "palette": "blue",
-    "mode": "light",
-    "base_font": "serif",
-    "header": {
-        "type": "header",
-        "title": "Jörg M. Dialer",
-        "logo": "/images/Logo2.jpg",
-        "logo_alt": "Logo Jörg M. Dialer",
-        "has_primary_nav": true,
-        "primary_nav_links": [
-            {
-                "type": "action",
-                "label": "FAQ",
-                "url": "/faq",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Über",
-                "url": "/about",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Kontakt",
-                "url": "/contact",
-                "style": "link"
-            }
-        ],
-        "has_secondary_nav": false,
-        "has_anncmnt": true,
-        "anncmnt_content": "Hier entsteht mein neuer Internetauftritt!\n"
-    },
-    "footer": {
-        "type": "footer",
-        "logo": "/images/Logo2.jpg",
-        "logo_alt": "Alyvia logo",
-        "has_primary_nav": true,
-        "primary_nav_links": [
-            {
-                "type": "action",
-                "label": "Über mich",
-                "url": "/about",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "FAQ",
-                "url": "/faq",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Kontakt",
-                "url": "/contact",
-                "style": "link"
-            }
-        ],
-        "has_secondary_nav": false,
-        "secondary_nav_links": [
-            {
-                "type": "action",
-                "label": "Style Guide",
-                "url": "/style-guide",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Terms & Conditions",
-                "url": "/terms-conditions",
-                "style": "link"
-            },
-            {
-                "type": "action",
-                "label": "Privacy Policy",
-                "url": "/privacy-policy",
-                "style": "link"
-            }
-        ],
-        "has_social": true,
-        "social_links": [
-            {
-                "type": "action",
-                "label": "Twitter",
-                "url": "https://twitter.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "twitter",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "Facebook",
-                "url": "https://www.facebook.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "facebook",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "Instagram",
-                "url": "https://www.instagram.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "instagram",
-                "icon_position": "center",
-                "new_window": true
-            },
-            {
-                "type": "action",
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/",
-                "style": "link",
-                "has_icon": true,
-                "icon": "linkedin",
-                "icon_position": "center",
-                "new_window": true
-            }
-        ],
-        "content": "&copy; BlackBoxMediaDesign. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=personal&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
-    },
-    "domain": "https://jmdialer-personal.netlify.app",
-    "favicon": "/images/perpetual-planet.jpg"
+    "type": "header"
+  },
+  "layout_type": "boxed",
+  "style": "classic",
+  "favicon": "/images/perpetual-planet.jpg",
+  "title": "Jörg M. Dialer",
+  "footer": {
+    "primary_nav_links": [
+      {
+        "type": "action",
+        "label": "Über mich",
+        "url": "/about",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "FAQ",
+        "url": "/faq",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "Kontakt",
+        "url": "/contact",
+        "style": "link"
+      }
+    ],
+    "has_primary_nav": true,
+    "social_links": [
+      {
+        "type": "action",
+        "label": "Twitter",
+        "url": "https://twitter.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "twitter",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "label": "Facebook",
+        "url": "https://www.facebook.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "facebook",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "instagram",
+        "icon_position": "center",
+        "new_window": true
+      },
+      {
+        "type": "action",
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/",
+        "style": "link",
+        "has_icon": true,
+        "icon": "linkedin",
+        "icon_position": "center",
+        "new_window": true
+      }
+    ],
+    "logo": "/images/Logo2.jpg",
+    "secondary_nav_links": [
+      {
+        "type": "action",
+        "label": "Style Guide",
+        "url": "/style-guide",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "Terms & Conditions",
+        "url": "/terms-conditions",
+        "style": "link"
+      },
+      {
+        "type": "action",
+        "label": "Privacy Policy",
+        "url": "/privacy-policy",
+        "style": "link"
+      }
+    ],
+    "has_social": true,
+    "has_secondary_nav": false,
+    "logo_alt": "Alyvia logo",
+    "content": "&copy; BlackBoxMediaDesign. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=personal&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>",
+    "type": "footer"
+  },
+  "palette": "blue",
+  "base_font": "serif"
 }
