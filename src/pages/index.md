@@ -1,33 +1,33 @@
 ---
 title: Start
 sections:
-  - type: hero_section
-    title: 'Griaß enk, I bin''s, euer Naggi!'
+  - media_position: right
+    image_alt: Mein Kepfl
+    align: left
+    padding_top: large
+    background_image: /images/Logo.jpg
+    media_width: sixty
+    background_image_repeat: repeat
+    background_color: primary
+    video_embed_html: <iframe width="560" height="315"
+      src="https://www.youtube-nocookie.com/embed/s6pNswIMOak" title="YouTube
+      video player" frameborder="0" allow="accelerometer; autoplay;
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    background_image_size: contain
+    background_image_opacity: 8
     subtitle: Hier stelle ich meinen Schaffenszyklus vor.
+    title: Griaß enk, I bin's, euer Naggi!
+    content: |
+      Gurgel, sabber, blubb!
+    padding_bottom: large
+    type: hero_section
+    image: /images/Kepfl.jpg
     actions:
       - type: action
         url: /contact
         style: primary
         label: Kontakt
-    image: /images/Kepfl.jpg
-    image_alt: Mein Kepfl
-    media_position: right
-    media_width: fifty
-    align: left
-    padding_top: large
-    padding_bottom: large
-    background_color: primary
-    background_image: /images/Logo.jpg
-    background_image_opacity: 8
-    background_image_size: contain
-    background_image_repeat: repeat
-    content: |
-      Gurgel, sabber, blubb!
-    video_embed_html: >-
-      <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/lA0hiecUZjw" title="YouTube video
-      player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-      encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   - type: grid_section
     title: Ich bin der Liebling des Denkmalamtes.
     subtitle: Who I work with
@@ -72,13 +72,16 @@ sections:
     title: Mein Schaffenszyklus
     subtitle: Was ich mache
     features:
-      - type: feature
+      - media_position: right
+        image_alt: Feature 1 illustration
+        media_width: sixty
+        subtitle: Website, blog, social media and more.
         title: Content Creation
-        subtitle: 'Website, blog, social media and more.'
-        content: >-
-          I will handle content writing for your digital assets, from
-          newsletters and emails, to Facebook and Google campaigns, whitepapers,
-          case studies and product descriptions. No job is too big or small!
+        content: I will handle content writing for your digital assets, from newsletters
+          and emails, to Facebook and Google campaigns, whitepapers, case
+          studies and product descriptions. No job is too big or small!
+        type: feature
+        image: images/feature-1.svg
         actions:
           - type: action
             label: See Writing Samples
@@ -87,17 +90,16 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/feature-1.svg
-        image_alt: Feature 1 illustration
-        media_position: right
+      - media_position: right
+        image_alt: Feature 2 illustration
         media_width: sixty
-      - type: feature
+        subtitle: Product updates, inventory and pricing.
         title: Online Store Management
-        subtitle: 'Product updates, inventory and pricing.'
-        content: >-
-          Managing an online business is a full-time job. I will make sure your
+        content: Managing an online business is a full-time job. I will make sure your
           products look great, sound great, and sell more on your choice of
           ecommerce platform.
+        type: feature
+        image: images/feature-2.svg
         actions:
           - type: action
             label: Learn More
@@ -106,17 +108,16 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/feature-2.svg
-        image_alt: Feature 2 illustration
-        media_position: right
+      - media_position: right
+        image_alt: Feature 3 illustration
         media_width: sixty
-      - type: feature
+        subtitle: Your products and services, at scale.
         title: Technical Content
-        subtitle: 'Your products and services, at scale.'
-        content: >-
-          I will dive into the ins and outs of your product or service and make
+        content: I will dive into the ins and outs of your product or service and make
           sure the right information is communicated throughout your
           documentation, pamphlets, manuals and technical documents.
+        type: feature
+        image: images/feature-3.svg
         actions:
           - type: action
             label: See Past Work
@@ -125,16 +126,10 @@ sections:
             has_icon: true
             icon: arrow-right
             icon_position: right
-        image: images/feature-3.svg
-        image_alt: Feature 3 illustration
-        media_position: right
-        media_width: sixty
     feature_padding_vert: large
     align: center
     background_color: none
-  - type: grid_section
-    title: Testimonials
-    subtitle: What My Clients Say
+  - align: center
     grid_items:
       - type: grid_item
         content: >-
@@ -177,29 +172,28 @@ sections:
         image: images/gordon-norman.png
         image_position: left
         image_width: twenty-five
-    grid_cols: two
-    grid_gap_vert: large
-    grid_gap_horiz: medium
-    align: center
-    background_color: secondary
     background_image: images/watercolor.png
-    background_image_opacity: 12
-    background_image_size: contain
+    grid_cols: two
     background_image_repeat: repeat
-  - type: form_section
-    content: >
-      ## Kommunikation mit mir
-
-
-      If you would like more information about my services and pricing, please
-      contact me using the form below.
-    content_align: left
-    form_position: left
-    form_width: fifty
+    background_color: secondary
+    grid_gap_vert: large
+    background_image_size: contain
+    background_image_opacity: 12
+    subtitle: What My Clients Say
+    title: Testimonials
+    grid_gap_horiz: medium
+    type: grid_section
+  - form_position: left
     form_layout: stacked
+    padding_top: medium
+    background_image: images/watercolor.png
+    align_vert: top
+    form_width: fifty
     enable_card: true
-    form_id: contact-form
+    submit_label: Senden
+    background_image_repeat: repeat
     form_action: /thank-you
+    background_color: primary
     form_fields:
       - type: form_field
         input_type: text
@@ -221,44 +215,45 @@ sections:
       - type: form_field
         input_type: checkbox
         name: consent
-        label: >-
-          Ich verstehe, dass dieses Formular meine übermittelten Informationen
+        label: Ich verstehe, dass dieses Formular meine übermittelten Informationen
           speichert, damit ich kontaktiert werden kann.
         is_required: true
-    submit_label: Senden
-    align_vert: top
-    padding_top: medium
-    padding_bottom: medium
-    background_color: primary
-    background_image: images/watercolor.png
-    background_image_opacity: 8
     background_image_size: contain
-    background_image_repeat: repeat
+    form_id: contact-form
+    background_image_opacity: 8
+    content: >
+      ## Kommunikation mit mir
+
+
+      If you would like more information about my services and pricing, please contact me using the form below.
+    padding_bottom: medium
+    type: form_section
+    content_align: left
 seo:
   type: stackbit_page_meta
   title: Jörg M. Dialer - Diplom Malermeister
   description: Der gute Geist von Büchsenhausen stellt sich vor.
   extra:
-    - name: 'og:type'
+    - name: og:type
       value: website
       keyName: property
-    - name: 'og:title'
+    - name: og:title
       value: Stackbit Personal Theme
       keyName: property
-    - name: 'og:description'
+    - name: og:description
       value: The preview of the Personal theme
       keyName: property
-    - name: 'og:image'
+    - name: og:image
       value: images/personal-preview.png
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: twitter:card
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: twitter:title
       value: Stackbit Personal Theme
-    - name: 'twitter:description'
+    - name: twitter:description
       value: The preview of the Personal theme
-    - name: 'twitter:image'
+    - name: twitter:image
       value: images/personal-preview.png
       relativeUrl: true
 template: advanced
