@@ -30,7 +30,7 @@ sections:
         style: primary
         label: Kontakt
   - type: grid_section
-    title: Ich bin der Liebling des Denkmalamtes.
+    title: Mit einem Klick zum Panorama meines Ateliers.
     subtitle: Panorama
     grid_items:
       - type: grid_item
