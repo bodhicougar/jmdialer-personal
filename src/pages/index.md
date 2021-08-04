@@ -29,6 +29,15 @@ sections:
         url: /contact
         style: primary
         label: Kontakt
+      - label: lorem-ipsum
+        url: '#'
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: right
+        new_window: false
+        no_follow: false
+        type: action
   - type: grid_section
     title: Mit einem Klick zum Panorama meines Ateliers.
     subtitle: Panorama
