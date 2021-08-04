@@ -18,7 +18,7 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
     subtitle: Hier stelle ich meinen Schaffenszyklus vor.
-    title: AtelierJörg M. Dialer
+    title: Jörg M. Dialer - Atelier
     content: |
       Kontaktaufnahme: Kontakt Schalter klicken
 
