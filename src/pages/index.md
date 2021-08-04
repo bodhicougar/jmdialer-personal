@@ -32,7 +32,7 @@ sections:
         style: primary
         label: Kontakt
       - label: Panorama
-        url: '#'
+        url: 'https://atelier.blackboxmd.fyi/'
         style: primary
         has_icon: false
         icon: arrow-left
