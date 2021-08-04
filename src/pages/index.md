@@ -20,7 +20,9 @@ sections:
     subtitle: Hier stelle ich meinen Schaffenszyklus vor.
     title: 'Griaß enk, I bin''s, euer Naggi!'
     content: |
-      Gurgel, sabber, blubb!
+      Kontaktaufnahme: Kontakt Schalter klicken
+
+      Panorama meines Ateliers: Panorama Schalter klicken
     padding_bottom: large
     type: hero_section
     image: /images/Kepfl.jpg
