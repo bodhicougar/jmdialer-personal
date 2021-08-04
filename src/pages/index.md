@@ -29,7 +29,7 @@ sections:
         url: /contact
         style: primary
         label: Kontakt
-      - label: lorem-ipsum
+      - label: Panorama
         url: '#'
         style: link
         has_icon: false
