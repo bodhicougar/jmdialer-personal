@@ -18,7 +18,7 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
     subtitle: Hier stelle ich meinen Schaffenszyklus vor.
-    title: 'Griaß enk, I bin''s, euer Naggi!'
+    title: Atelier Jörg M. Dialer
     content: |
       Kontaktaufnahme: Kontakt Schalter klicken
 
