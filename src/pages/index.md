@@ -9,7 +9,8 @@ sections:
     media_width: sixty
     background_image_repeat: repeat
     background_color: primary
-    video_embed_html: <iframe width="560" height="315"
+    video_embed_html: >-
+      <iframe width="560" height="315"
       src="https://www.youtube-nocookie.com/embed/s6pNswIMOak" title="YouTube
       video player" frameborder="0" allow="accelerometer; autoplay;
       clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -17,7 +18,7 @@ sections:
     background_image_size: contain
     background_image_opacity: 8
     subtitle: Hier stelle ich meinen Schaffenszyklus vor.
-    title: Griaß enk, I bin's, euer Naggi!
+    title: 'Griaß enk, I bin''s, euer Naggi!'
     content: |
       Gurgel, sabber, blubb!
     padding_bottom: large
@@ -30,7 +31,7 @@ sections:
         label: Kontakt
   - type: grid_section
     title: Ich bin der Liebling des Denkmalamtes.
-    subtitle: Who I work with
+    subtitle: Panorama
     grid_items:
       - type: grid_item
         image: images/logo-1.svg
@@ -75,11 +76,12 @@ sections:
       - media_position: right
         image_alt: Feature 1 illustration
         media_width: sixty
-        subtitle: Website, blog, social media and more.
+        subtitle: 'Website, blog, social media and more.'
         title: Content Creation
-        content: I will handle content writing for your digital assets, from newsletters
-          and emails, to Facebook and Google campaigns, whitepapers, case
-          studies and product descriptions. No job is too big or small!
+        content: >-
+          I will handle content writing for your digital assets, from
+          newsletters and emails, to Facebook and Google campaigns, whitepapers,
+          case studies and product descriptions. No job is too big or small!
         type: feature
         image: images/feature-1.svg
         actions:
@@ -93,9 +95,10 @@ sections:
       - media_position: right
         image_alt: Feature 2 illustration
         media_width: sixty
-        subtitle: Product updates, inventory and pricing.
+        subtitle: 'Product updates, inventory and pricing.'
         title: Online Store Management
-        content: Managing an online business is a full-time job. I will make sure your
+        content: >-
+          Managing an online business is a full-time job. I will make sure your
           products look great, sound great, and sell more on your choice of
           ecommerce platform.
         type: feature
@@ -111,9 +114,10 @@ sections:
       - media_position: right
         image_alt: Feature 3 illustration
         media_width: sixty
-        subtitle: Your products and services, at scale.
+        subtitle: 'Your products and services, at scale.'
         title: Technical Content
-        content: I will dive into the ins and outs of your product or service and make
+        content: >-
+          I will dive into the ins and outs of your product or service and make
           sure the right information is communicated throughout your
           documentation, pamphlets, manuals and technical documents.
         type: feature
@@ -215,7 +219,8 @@ sections:
       - type: form_field
         input_type: checkbox
         name: consent
-        label: Ich verstehe, dass dieses Formular meine übermittelten Informationen
+        label: >-
+          Ich verstehe, dass dieses Formular meine übermittelten Informationen
           speichert, damit ich kontaktiert werden kann.
         is_required: true
     background_image_size: contain
@@ -225,7 +230,8 @@ sections:
       ## Kommunikation mit mir
 
 
-      If you would like more information about my services and pricing, please contact me using the form below.
+      If you would like more information about my services and pricing, please
+      contact me using the form below.
     padding_bottom: medium
     type: form_section
     content_align: left
@@ -234,26 +240,26 @@ seo:
   title: Jörg M. Dialer - Diplom Malermeister
   description: Der gute Geist von Büchsenhausen stellt sich vor.
   extra:
-    - name: og:type
+    - name: 'og:type'
       value: website
       keyName: property
-    - name: og:title
+    - name: 'og:title'
       value: Stackbit Personal Theme
       keyName: property
-    - name: og:description
+    - name: 'og:description'
       value: The preview of the Personal theme
       keyName: property
-    - name: og:image
+    - name: 'og:image'
       value: images/personal-preview.png
       keyName: property
       relativeUrl: true
-    - name: twitter:card
+    - name: 'twitter:card'
       value: summary_large_image
-    - name: twitter:title
+    - name: 'twitter:title'
       value: Stackbit Personal Theme
-    - name: twitter:description
+    - name: 'twitter:description'
       value: The preview of the Personal theme
-    - name: twitter:image
+    - name: 'twitter:image'
       value: images/personal-preview.png
       relativeUrl: true
 template: advanced
